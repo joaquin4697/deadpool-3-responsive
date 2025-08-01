@@ -301,7 +301,8 @@ figure{
     margin-top: 2%;
     margin-bottom: 2%;
     color: white;
-    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
   }
   .sinopsis{
   color: white;
