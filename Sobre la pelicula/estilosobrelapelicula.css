@@ -261,6 +261,9 @@ figure{
     padding: 20px 10px;
   }
 }@media screen and (max-width: 500px) {
+  .encabezados{
+    font-size: 15px;
+  }
   .audio{
    width:75%;
    margin-left: 15%;
