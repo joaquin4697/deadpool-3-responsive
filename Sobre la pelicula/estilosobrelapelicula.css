@@ -276,7 +276,8 @@ figure{
     text-shadow: 2px 3px 2px black;
     margin-bottom: 2%;
     margin-top: 2%;
-    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
   }
   .encabezado{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.849);
