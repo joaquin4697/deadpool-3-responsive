@@ -1,0 +1,297 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  background-color: #4e0401e0;  
+}
+main{
+  background-color: #4e0401e0;
+  margin: 0;
+  padding: 0;
+  background-position: center ; 
+  color: rgb(110, 6, 6);
+  min-height: 75vh;
+}
+header {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: rgb(8, 8, 8);
+  height: 10vh;
+  position: sticky;
+  top: 0;
+}
+header a {
+
+  text-decoration: none;
+  padding: 0;
+  width: 40%;
+
+}
+header img {
+  width: 64px;
+  height: 64px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; 
+  padding: 10px 20px;
+}
+.navcentro{
+  color: rgb(192, 12, 12);
+  text-decoration: none;
+  font-family: 'deadpoolLetras';
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgba(226, 227, 231, 0.226);
+  letter-spacing: 1px;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  transition: 0.3s ease;
+}
+.navcentro:hover {
+  scale: 1.01;
+}
+.h1-deadpool{
+  font-size: 20px;
+  padding-right: 0%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  width: fit-content;
+  flex-direction: row;
+}
+.h1-deadpool h1{
+  font-family: 'deadpoolLetras';
+  text-shadow: 3px 2px 5px rgb(255 255 255);
+  color: rgb(133 16 16);
+  font-size: 30px;
+  text-decoration: none;
+}
+.centro{
+  text-align: center;
+}
+h2{
+  font-family: 'deadpoolLetras';
+  font-size: 30px;
+  text-shadow: 1px 1px 3px rgba(209, 145, 8, 0.849);
+  margin-left: 8%;
+}
+h3{
+  color: rgb(180, 90, 6);
+  font-family: 'deadpoolLetras';
+  font-size: 30px;
+  margin-left: 148px
+}
+.texto{
+  font-family: 'deadpoolLetras'; 
+  font-size: 30px;
+  margin-left: 8%; 
+  margin-top: 2%;
+  text-align: center;
+}
+.comentario-reparacion{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+footer .color{
+  color: rgb(141, 5, 5); 
+  text-decoration: solid;  
+  margin: 0 10px;
+  text-shadow: 2px 2px 2px rgba(88, 90, 228, 0.582);
+  font-family: 'deadpoolLetras';
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+footer{
+  background-color: rgb(0, 0, 0);
+  padding: 30px 0;
+  text-align: center;
+  margin: -1px 0;
+}
+footer p{
+  text-align: center;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;  
+	color: rgb(255, 255, 255);
+}
+.img{
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  transition: 0.1s ease-out;
+}
+.img:hover{
+  width: 70px;
+  height: 70px;
+}
+.contenedor-imagen{
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+.texto{
+  color: white;
+  font-family: 'deadpoolLetras';
+  font-size: 20px;
+  text-shadow: 0px 3px 0px black;
+}
+.redes{
+  margin-top: 16%;
+  width: 20%;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+@font-face {
+  font-family: 'deadpoolLetras';
+  src: url(./../fuente\ tipografia/DeadpoolMovie-9AzL.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.gif{
+width: auto;
+height: 250px;
+}
+.figure{
+    text-align: center;
+}
+@media screen and (max-width: 1100px) {
+  .redes{
+    margin-top: 54%;
+  }
+  .main{
+    min-height: 70vh;
+  }
+  .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+  .texto{
+    font-size: 25px;
+    text-align: center;
+  }
+  .img {
+  width: 40px;
+  height: 40px;
+}
+  body {
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+  }
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+    position: static;
+  }
+  .h1-deadpool img{
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .h1-deadpool {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .h1-deadpool h1 {
+    font-size: 22px;
+  }
+  .navcentro {
+    font-size: 16px;
+    margin: 5px auto;
+    display: block;
+    width: 100%;
+  }
+  .div-estructura {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+  }
+  footer {
+    padding: 20px 10px;
+  }
+}@media screen and (max-width: 500px) {
+  .img {
+      width: 30px;
+      height: 30px;
+    }
+  .comentario-reparacion{
+    font-size: 23px;
+  }
+  .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+  .listas {
+  margin-top: 50px;
+  color: white;
+  font-family: 'deadpoolLetras';
+  font-size: 18px;
+}
+  .texto{
+    font-size: 14px;
+    text-align: center;
+  }
+  body {
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+    position: static;
+  }
+  .h1-deadpool {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+  .h1-deadpool h1 {
+    font-size: 22px;
+  }
+  .navcentro {
+    font-size: 16px;
+    margin: 5px auto;
+    display: block;
+    width: 100%;
+  }
+  .div-estructura {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+  }
+  footer {
+    padding: 20px 10px;
+  }
+}
+
+
